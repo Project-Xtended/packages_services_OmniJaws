@@ -22,7 +22,6 @@
         <item>@string/provider_metnorway</item>
         <item>@string/provider_gismeteo</item>
         <item>@string/provider_accuweather</item>
-        <item>@string/provider_darksky</item>
         <item>@string/provider_twc</item>
         <item>@string/provider_weatherbit</item>
         <item>@string/provider_foreca</item>
@@ -33,7 +32,6 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
-        <item>4</item>
         <item>5</item>
         <item>7</item>
         <item>8</item>

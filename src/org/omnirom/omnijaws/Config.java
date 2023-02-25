@@ -49,8 +49,6 @@ public class Config {
                 return new GismeteoProvider(context);
             case "3":
                 return new AccuWeatherProvider(context);
-            case "4":
-                return new DarkSkyProvider(context);
             case "5":
                 return new TheWeatherChannelProvider(context);
             case "7":
@@ -78,8 +76,6 @@ public class Config {
                 return "Gismeteo";
             case "3":
                 return "AccuWeather";
-            case "4":
-                return "Dark Sky";
             case "5":
                 return "The Weather Channel";
             case "7":
