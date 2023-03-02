@@ -1,0 +1,38 @@
+//
+// Copyright (C) 2022-23 Project Xtended
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "OmniJaws",
+
+    defaults: [
+        "SettingsLibDefaults",
+        "SettingsLib-search-defaults",
+    ],
+
+    srcs: [
+        "**/*.java"
+    ],
+
+    static_libs: [
+        "com.google.android.material_material",
+        "SettingsLib",
+    ],
+
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+    required: [
+            "privapp_whitelist_org.omnirom.omnijaws-ext.xml",
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_org.omnirom.omnijaws-ext.xml",
+    system_ext_specific: true,
+    src: "privapp_whitelist_org.omnirom.omnijaws-ext.xml",
+    relative_install_path: "permissions",
+
+}

@@ -10,6 +10,7 @@
         <permission name="android.permission.INTERNET" />
         <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
         <permission name="android.permission.WRITE_SETTINGS" />
+        <permission name="org.omnirom.omnijaws.READ_WEATHER"/>
     </privapp-permissions>
 
 </permissions>
